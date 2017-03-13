@@ -1,0 +1,122 @@
+/* Section header */
+
+.section-header {
+  margin-top: 150px;
+
+  & h1 {
+    font-family: $ultra;
+    font-size: 8rem;
+    margin-top: 2rem;
+    color: $navy;
+  }
+
+  & .icon-bitcoin:before {
+    font-size: 12rem;
+    -webkit-animation: title-fall 0.75s ease;
+    -moz-animation: title-fall 0.75s ease;
+    animation: title-fall 0.75s ease;
+ }
+
+  & h3 {
+    font-family: $montserratextralight;
+    letter-spacing: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+
+}
+
+/* Section statement */
+
+.section-statement {
+  margin-top: 100px;
+
+  & h4 {
+    font-family: $montserratextralight;
+    color: $red;
+  }
+
+  & h4:before,
+    h4:after {
+    content: '-';
+    margin: 0 5px;
+    color: $red;
+  }
+}
+
+/* Page footer */
+
+.page-footer {
+  width: 100%;
+  background-color: $red;
+  color: $white;
+
+  & .page-footer-container {
+    margin: 0 50px;
+    padding: 50px 0 0;
+  }
+
+  & .icon-coffee-cup:before {
+    font-size: 6rem;
+    color: $white;
+    -webkit-animation: title-fall 0.75s ease;
+    -moz-animation: title-fall 0.75s ease;
+    animation: title-fall 0.75s ease;
+  }
+
+  & .line {
+      position: relative;
+      background: $white;
+      width: 50px;
+      height: 3px;
+      margin-bottom: 20px;
+    }
+
+  & li {
+    list-style: none;
+  }
+
+  & h2 {
+    font-family: $ultra;
+    margin-bottom: 0;
+  }
+
+  & h6 {
+    font-family: $montserratextralight;
+  }
+
+  & .icon-facebook:before,
+    .icon-twitter-logo:before,
+    .icon-instagram:before {
+    font-size: 3rem;
+    margin-right: 5px;
+  }
+  
+  & .icon-message:before,
+    .icon-phone:before {
+    font-size: 5rem;
+    margin-right: 2rem;
+    vertical-align: middle;
+  }
+
+  & .icon-phone:before {
+    font-size: 4rem;
+  }
+
+  & .phone {
+    font-size: 4rem;
+    font-family: $montserratextralight;
+  }
+
+  & .mail {
+    font-size: 2rem;
+    font-family: $montserratextralight;
+  }
+
+  & .icon-bitcoin:before {
+    font-size: 2rem;
+    margin: 0 5px;
+    vertical-align: middle;
+  }
+
+}

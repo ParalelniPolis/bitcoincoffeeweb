@@ -4,7 +4,7 @@
   margin-top: 150px;
 
   & h1 {
-    font-family: $ultra;
+    font-family: $helveticaultra;
     font-size: 8rem;
     margin-top: 2rem;
     color: $navy;
@@ -20,6 +20,14 @@
   & h3 {
     font-family: $montserratextralight;
     letter-spacing: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+
+  & h4 {
+    font-family: $montserratlight;
+    letter-spacing: 1rem;
+    font-size: 2rem;
     margin-top: 2rem;
     text-transform: uppercase;
   }
@@ -86,7 +94,7 @@
   }
 
   & h2 {
-    font-family: $ultra;
+    font-family: $helveticaultra;
     margin-bottom: 0;
   }
 

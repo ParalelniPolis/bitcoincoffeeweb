@@ -1,3 +1,9 @@
+html, body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
 .text-center {
   text-align: center;
 }
@@ -8,8 +14,18 @@
   text-align: right;
 }
 a {
-  color: #EB5A5B;
+  color: $red;
+  text-decoration: none;
 }
+a:hover {
+  color: $red;
+  text-decoration: underline;
+}
+
+p {
+  font-family: $helvetica;
+}
+
 .columns {
   margin: 0;
 }

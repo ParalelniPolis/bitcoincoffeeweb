@@ -3,6 +3,8 @@ var sass        = require('gulp-sass');
 var minifyCSS 	= require('gulp-minify-css');
 var webserver 	= require('gulp-webserver');
 var watch       = require('gulp-watch');
+var uglify      = require('gulp-uglify');
+var pump        = require('pump');
 
 gulp.task('sass', function() {
     gulp.src('./src/*.scss')
@@ -28,6 +30,16 @@ gulp.task('watch', function() {
     gulp.watch(['src/**/*.scss'], ['sass']);
 });
 
-gulp.task('default', ['watch', 'webserver'], function() {
+gulp.task('compress', function (cb) {
+    pump([
+            gulp.src('js/application.js'),
+            uglify(),
+            gulp.dest('dist')
+        ],
+        cb
+    );
+});
+
+gulp.task('default', ['watch', 'webserver', 'compress'], function() {
     console.log('Up and running, enjoy!')
 });

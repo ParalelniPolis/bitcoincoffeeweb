@@ -32,7 +32,44 @@
     text-transform: uppercase;
   }
 
+  & .bitcoin-address a,
+    .bitcoin-address a:hover {
+    color: $black;
+  }
+
 }
+
+/* Section gallery */
+.section-gallery {
+
+  & .image-kit {
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+  }
+
+  & .image-kit:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+}
+
 
 /* Section opening hours */
 .section-opening-hours {
@@ -76,9 +113,6 @@
   & .icon-coffee-cup:before {
     font-size: 12rem;
     color: $white;
-    -webkit-animation: title-fall 0.75s ease;
-    -moz-animation: title-fall 0.75s ease;
-    animation: title-fall 0.75s ease;
   }
 
   & .line {
@@ -140,6 +174,12 @@
 
   & .page-footer-padding {
     padding: 2rem 0;
+  }
+
+  & .page-footer-padding a,
+    .page-footer-padding a:hover {
+    color: $white;
+    text-decoration: none;
   }
 
 }

@@ -20,12 +20,36 @@ $(document).ready(function() {
     window.sr = new ScrollReveal(config)
 })();
 
-var logos = {
+var topCoin = {
     origin   : "top",
-    distance : "80px",
+    distance : "100px",
     duration : 1500,
-    delay    : 500,
     scale    : 1,
 };
+var bottomH3 = {
+    origin   : "bottom",
+    distance : "80px",
+    duration : 1500,
+    delay    : 400,
+    scale    : 1,
+};
+var bottomAddress = {
+    origin   : "bottom",
+    distance : "80px",
+    duration : 1500,
+    delay    : 700,
+    scale    : 1,
+};
+var bottomCoffeeCup = {
+    origin   : "bottom",
+    distance : "80px",
+    duration : 1500,
+    scale    : 1,
+    rotate: { x: 10, y: 10, z: 10 },
+};
 
-sr.reveal(".shoptet", logos);
+sr.reveal(".bitcoin-logo", topCoin);
+sr.reveal(".bitcoin-h1", topCoin);
+sr.reveal(".bitcoin-h3", bottomH3);
+sr.reveal(".bitcoin-address", bottomAddress);
+sr.reveal(".bitcoin-coffee-cup", bottomCoffeeCup);

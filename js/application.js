@@ -148,6 +148,18 @@ $(document).ready(function() {
         "Czechia": {
             cz: "Česká republika",
             en: "Czechia"
+        },
+        "Statement01": {
+            cz: "Záleží na mnoha věcech, zda si svou kávu opravdu vychutnáte. Dobrá káva potřebuje kvalitní péči již na afrických, asijských či jihoamerických plantážích. Odtud putují zelená kávová zrna v jutových pytlích do pražíren.",
+            en: "It depends on many things, whether you truly enjoy your coffee. Great coffee needs quality care on african, asian or south-american plants first. From there the green coffee beans travels in jute bags to roaster rooms."
+        },
+        "Statement02": {
+            cz: "Bitcoin Coffee je jedinečné místo s jedinečnou kávou. Espresso připravujeme ze zrn pražených v liberecké pražírně Nordbeans. Její majitelé pečlivě vybírají kávu od lokálních farmářů z Jižní Ameriky, Afriky i Asie. My pak z jejich výběru selektujeme především světleji pražené kávy z Etiopie a Hondurasu. Vynikají lehkou, šťavnatou a osvěžující chutí s ovocnými tóny.",
+            en: "Czechia"
+        },
+        "Statement03": {
+            cz: "Za kávu a jiné pochutiny u nás zaplatíte <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>kryptoměnou bitcoin</a>.",
+            en: "Czechia"
         }
     }
     var translator = $('body').translate({lang: "cz", t: dict}); //use Czech

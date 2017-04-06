@@ -155,11 +155,11 @@ $(document).ready(function() {
         },
         "Statement02": {
             cz: "Bitcoin Coffee je jedinečné místo s jedinečnou kávou. Espresso připravujeme ze zrn pražených v liberecké pražírně Nordbeans. Její majitelé pečlivě vybírají kávu od lokálních farmářů z Jižní Ameriky, Afriky i Asie. My pak z jejich výběru selektujeme především světleji pražené kávy z Etiopie a Hondurasu. Vynikají lehkou, šťavnatou a osvěžující chutí s ovocnými tóny.",
-            en: "Czechia"
+            en: "Bitcoin Coffee is extraordinary place with unique coffee. We make espresso from beans roasted in Liberec roastery Nordbeans. Their owners carefully pick coffee from local farmers from South America, Africa or Asia. We select from their picks. We prefer lighter roasted coffee from Etiopia and Honduras. They flash by light, rich and fresh taste with fruit tones."
         },
         "Statement03": {
             cz: "Za kávu a jiné pochutiny u nás zaplatíte <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>kryptoměnou bitcoin</a>.",
-            en: "Czechia"
+            en: "For coffee and everything else you pay with us by <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>crypto-currency bitcoin</a>."
         }
     }
     var translator = $('body').translate({lang: "cz", t: dict}); //use Czech
@@ -169,5 +169,18 @@ $(document).ready(function() {
         var lang = $(this).attr("data-value");
         translator.lang(lang);
         ev.preventDefault();
+    });
+});
+
+// owl carousel
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        items:1,
+        nav:true,
+        navText:[],
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3500,
+        autoplayHoverPause:true
     });
 });

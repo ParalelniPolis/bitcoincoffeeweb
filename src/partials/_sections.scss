@@ -11,7 +11,7 @@
 /* Section header */
 
 .section-header {
-  margin-top: 150px;
+  margin-top: 100px;
 
   & h1 {
     font-family: $helveticaultra;
@@ -30,7 +30,6 @@
   & h3 {
     font-family: $montserratextralight;
     letter-spacing: 1rem;
-    margin-top: 2rem;
     text-transform: uppercase;
   }
 
@@ -51,32 +50,33 @@
 
 /* Section gallery */
 .section-gallery {
+  position: relative;
 
-  & .image-kit {
-    display:inline-block;
-    border:0;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-
+  & .owl-dots {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  & .owl-dot.active span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: $red;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
   }
 
-  & .image-kit:hover {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  & .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: $white;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
   }
 }
 
@@ -93,7 +93,7 @@
 
 .section-statement,
 .section-opening-hours {
-  margin-top: 100px;
+  margin-top: 50px;
 
   & h4 {
     font-family: $montserratextralight;
@@ -153,6 +153,7 @@
     .icon-instagram:before {
     font-size: 3rem;
     margin-right: 5px;
+    color: $white;
   }
   
   & .icon-message:before,

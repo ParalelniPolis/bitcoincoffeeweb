@@ -28,13 +28,13 @@
  }
 
   & h3 {
-    font-family: $montserratextralight;
+    font-family: $helveticaultra;
     letter-spacing: 1rem;
     text-transform: uppercase;
   }
 
   & h4 {
-    font-family: $montserratlight;
+    font-family: $helvetica;
     letter-spacing: 1rem;
     font-size: 2rem;
     margin-top: 2rem;
@@ -50,16 +50,14 @@
 
 /* Section gallery */
 .section-gallery {
-  position: relative;
 
   & .owl-dots {
-    position: absolute;
-    top: 50%;
-    right: 0;
+    text-align: center;
+    padding-top: 1rem;
   }
   & .owl-dot.active span {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     margin: 5px 7px;
     background: $red;
     display: block;
@@ -69,14 +67,18 @@
   }
 
   & .owl-dot span {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     margin: 5px 7px;
-    background: $white;
+    background: $black;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
     border-radius: 30px;
+  }
+
+  & .owl-dot {
+    display: inline-block;
   }
 }
 
@@ -84,7 +86,7 @@
 /* Section opening hours */
 .section-opening-hours {
   & h5 {
-    font-family: $montserratlight;
+    font-family: $helvetica;
   }
 }
 
@@ -96,7 +98,7 @@
   margin-top: 50px;
 
   & h4 {
-    font-family: $montserratextralight;
+    font-family: $helveticaultra;
     color: $red;
   }
 
@@ -144,8 +146,9 @@
   }
 
   & h6 {
-    font-family: $montserratextralight;
+    font-family: $helveticaultra;
     margin-bottom: 1.5rem;
+    letter-spacing: 1px;
   }
 
   & .icon-facebook:before,
@@ -169,12 +172,12 @@
 
   & .phone {
     font-size: 2rem;
-    font-family: $montserratextralight;
+    font-family: $helveticaultra;
   }
 
   & .mail {
     font-size: 2rem;
-    font-family: $montserratextralight;
+    font-family: $helveticaultra;
   }
 
   & .icon-bitcoin:before {
@@ -191,6 +194,14 @@
     .page-footer-padding a:hover {
     color: $white;
     text-decoration: none;
+  }
+
+  & .cooperate h6 {
+    text-transform: uppercase;
+  }
+
+  & .cooperate li {
+    display: inline-block;
   }
 
 }

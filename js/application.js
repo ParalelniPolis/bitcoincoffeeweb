@@ -134,8 +134,8 @@ $(document).ready(function() {
             en: "Opening hours"
         },
         "Week": {
-            cz: "Pondelí až pátek: 8:00 - 21:00",
-            en: "Monday to friday: 8:00 - 21:00"
+            cz: "Pondelí až pátek: 8:00 - 20:00",
+            en: "Monday to friday: 8:00 - 20:00"
         },
         "Weekend": {
             cz: "Pátek až nedele: 12:00 - 21:00",
@@ -180,7 +180,7 @@ $(document).ready(function(){
         navText:[],
         loop:true,
         autoplay:true,
-        autoplayTimeout:3500,
+        autoplayTimeout:4500,
         autoplayHoverPause:true
     });
 });

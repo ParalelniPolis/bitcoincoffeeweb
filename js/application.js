@@ -160,6 +160,10 @@ $(document).ready(function() {
         "Statement03": {
             cz: "Za kávu a jiné pochutiny u nás zaplatíte <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>kryptoměnou bitcoin</a>.",
             en: "For coffee and everything else you pay with us by <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>crypto-currency bitcoin</a>."
+        },
+        "Cooperate": {
+            cz: "Spolupracujeme",
+            en: "We cooperate with"
         }
     }
     var translator = $('body').translate({lang: "cz", t: dict}); //use Czech

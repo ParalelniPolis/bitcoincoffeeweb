@@ -4,4 +4,4 @@
 .idea/**/tasks.xml
 .idea/dictionaries
 
-node_modules/.idea
+node_modules/

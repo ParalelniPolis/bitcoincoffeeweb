@@ -37,7 +37,7 @@ var bottomAddress = {
     origin   : "bottom",
     distance : "80px",
     duration : 1500,
-    delay    : 700,
+    delay    : 500,
     scale    : 1,
 };
 var bottomCoffeeCup = {
@@ -172,7 +172,7 @@ $(document).ready(function() {
     $(".lang_selector").click(function(ev) {
         var lang = $(this).attr("data-value");
         translator.lang(lang);
-        ev.preventDefault();
+        //ev.preventDefault();
     });
 });
 

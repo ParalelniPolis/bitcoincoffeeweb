@@ -200,6 +200,13 @@
     text-transform: uppercase;
   }
 
+  & .cooperate h6:before,
+    .cooperate h6:after {
+    content: '-';
+    margin: 0 5px;
+    color: $white;
+  }
+
   & .cooperate ul li {
     display: inline-block;
     color: $white;

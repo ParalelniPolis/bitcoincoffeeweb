@@ -166,13 +166,13 @@ $(document).ready(function() {
             en: "We cooperate with"
         }
     }
-    var translator = $('body').translate({lang: "cz", t: dict}); //use Czech
-    translator.lang("cz"); //change to English
+    var translator = $('.page').translate({lang: "en", t: dict});
+    translator.lang("cz");
 
     $(".lang_selector").click(function(ev) {
         var lang = $(this).attr("data-value");
         translator.lang(lang);
-        //ev.preventDefault();
+        ev.preventDefault();
     });
 });
 

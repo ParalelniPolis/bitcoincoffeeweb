@@ -200,8 +200,11 @@
     text-transform: uppercase;
   }
 
-  & .cooperate li {
+  & .cooperate ul li {
     display: inline-block;
+    color: $white;
+    font-family: $helveticaultra;
+    letter-spacing: 1px;
   }
 
 }

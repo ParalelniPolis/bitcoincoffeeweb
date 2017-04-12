@@ -130,7 +130,7 @@ $(document).ready(function() {
             en: "Prague"
         },
         "Open": {
-            cz: "Otvírací doba",
+            cz: "Otevírací doba",
             en: "Opening hours"
         },
         "Week": {

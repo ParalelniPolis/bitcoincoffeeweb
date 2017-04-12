@@ -28,6 +28,7 @@ gulp.task('webserver', function() {
 
 gulp.task('watch', function() {
     gulp.watch(['src/**/*.scss'], ['sass']);
+    gulp.watch(['js/**/*.js'], ['compress']);
 });
 
 gulp.task('compress', function (cb) {

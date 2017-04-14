@@ -134,12 +134,12 @@ $(document).ready(function() {
             en: "Opening hours"
         },
         "Week": {
-            cz: "Pondelí až pátek: 8:00 - 20:00",
+            cz: "Pondělí až pátek: 8:00 - 20:00",
             en: "Monday to friday: 8:00 - 20:00"
         },
         "Weekend": {
-            cz: "Pátek až nedele: 12:00 - 21:00",
-            en: "Friday to sunday: 12:00 - 21:00"
+            cz: "Sobota až neděle: 12:00 - 21:00",
+            en: "Saturday to sunday: 12:00 - 21:00"
         },
         "Made": {
             cz: "Vyrobeno díky",

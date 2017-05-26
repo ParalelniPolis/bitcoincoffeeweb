@@ -129,6 +129,10 @@ $(document).ready(function() {
             cz: "Praha",
             en: "Prague"
         },
+        "Close": {
+            cz: "Z technických příčin od 27.5 do 28.5 bude kavárna ZAVŘENA. Na vaši návštevu sa budeme tešit zase v Pondělí 29.5. Dekujeme za pochopení.",
+            en: "CLOSED 27.5 - 28.5 due to technical issues. We will be open again at Monday 29.5 reguralar hours. Sorry for inconvinience."
+        },
         "Open": {
             cz: "Otevírací doba",
             en: "Opening hours"

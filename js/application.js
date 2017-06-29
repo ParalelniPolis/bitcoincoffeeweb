@@ -142,8 +142,8 @@ $(document).ready(function() {
             en: "Monday to friday: 8:00 - 20:00"
         },
         "Weekend": {
-            cz: "Sobota až neděle: 12:00 - 21:00",
-            en: "Saturday to sunday: 12:00 - 21:00"
+            cz: "Sobota až neděle: 12:00 - 20:00",
+            en: "Saturday to sunday: 12:00 - 20:00"
         },
         "Made": {
             cz: "Vyrobeno díky",

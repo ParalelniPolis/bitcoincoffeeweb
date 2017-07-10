@@ -139,11 +139,11 @@ $(document).ready(function() {
         },
         "Week": {
             cz: "Pondělí až pátek: 8:00 - 20:00",
-            en: "Monday to friday: 8:00 - 20:00"
+            en: "Monday to Friday: 8:00 - 20:00"
         },
         "Weekend": {
             cz: "Sobota až neděle: 12:00 - 20:00",
-            en: "Saturday to sunday: 12:00 - 20:00"
+            en: "Saturday to Sunday: 12:00 - 20:00"
         },
         "Made": {
             cz: "Vyrobeno díky",
@@ -155,11 +155,11 @@ $(document).ready(function() {
         },
         "Statement01": {
             cz: "Záleží na mnoha věcech, zda si svou kávu opravdu vychutnáte. Dobrá káva potřebuje kvalitní péči již na afrických, asijských či jihoamerických plantážích. Odtud putují zelená kávová zrna v jutových pytlích do pražíren.",
-            en: "It depends on many things, whether you truly enjoy your coffee. Great coffee needs quality care on african, asian or south-american plants first. From there the green coffee beans travels in jute bags to roaster rooms."
+            en: "It depends on many things, whether you truly enjoy your coffee. Great coffee needs quality care on African, Asian or South American plantations first. From there, the green coffee beans travel in jute bags to roaster rooms."
         },
         "Statement02": {
             cz: "Bitcoin Coffee je jedinečné místo s jedinečnou kávou. Espresso připravujeme ze zrn pražených v liberecké pražírně Nordbeans. Její majitelé pečlivě vybírají kávu od lokálních farmářů z Jižní Ameriky, Afriky i Asie. My pak z jejich výběru selektujeme především světleji pražené kávy z Etiopie a Hondurasu. Vynikají lehkou, šťavnatou a osvěžující chutí s ovocnými tóny.",
-            en: "Bitcoin Coffee is extraordinary place with unique coffee. We make espresso from beans roasted in Liberec roastery Nordbeans. Their owners carefully pick coffee from local farmers from South America, Africa or Asia. We select from their picks. We prefer lighter roasted coffee from Etiopia and Honduras. They flash by light, rich and fresh taste with fruit tones."
+            en: "Bitcoin Coffee is an extraordinary place with unique coffee. We make espresso from beans roasted in the Liberec roastery Nordbeans. Their owners carefully pick coffee from local farmers in South America, Africa and Asia. We select from their picks. We prefer lightly roasted coffee from Ethiopia and Honduras. They flash by light, rich and fresh taste with fruit tones."
         },
         "Statement03": {
             cz: "Za kávu a jiné pochutiny u nás zaplatíte <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>kryptoměnou bitcoin</a>.",

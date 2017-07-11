@@ -162,8 +162,8 @@ $(document).ready(function() {
             en: "Bitcoin Coffee is an extraordinary place with unique coffee. We make espresso from beans roasted in the Liberec roastery Nordbeans. Their owners carefully pick coffee from local farmers in South America, Africa and Asia. We select from their picks. We prefer lightly roasted coffee from Ethiopia and Honduras. They flash by light, rich and fresh taste with fruit tones."
         },
         "Statement03": {
-            cz: "Za kávu a jiné pochutiny u nás zaplatíte <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>kryptoměnou bitcoin</a>.",
-            en: "For coffee and everything else you pay with us by <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>crypto-currency bitcoin</a>."
+            cz: "Za kávu a jiné pochutiny u nás zaplatíte kryptoměnou <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a> nebo <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>.",
+            en: "For coffee and everything else you pay with us by cryptocurrency <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a> or <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>."
         },
         "Cooperate": {
             cz: "Spolupracujeme",

@@ -146,8 +146,8 @@ $(document).ready(function() {
             en: "Saturday: 12:00 - 21:00"
         },
 		"Sunday": {
-            cz: "Neděle: zavřeno",
-            en: "Sunday: Closed"
+            cz: "Neděle: 12:00 - 20:00",
+            en: "Sunday: 12:00 - 20:00"
         },
         "Made": {
             cz: "Vyrobeno díky",

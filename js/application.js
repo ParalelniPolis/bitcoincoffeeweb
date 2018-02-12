@@ -162,12 +162,12 @@ $(document).ready(function() {
             en: "It depends on many things, whether you truly enjoy your coffee. Great coffee needs quality care on African, Asian or South American plantations first. From there, the green coffee beans travel in jute bags to roaster rooms."
         },
         "Statement02": {
-            cz: "Bitcoin Coffee je jedinečné místo s jedinečnou kávou. Espresso připravujeme ze zrn pražených v liberecké pražírně Nordbeans. Její majitelé pečlivě vybírají kávu od lokálních farmářů z Jižní Ameriky, Afriky i Asie. My pak z jejich výběru selektujeme především světleji pražené kávy z Etiopie a Hondurasu. Vynikají lehkou, šťavnatou a osvěžující chutí s ovocnými tóny.",
-            en: "Bitcoin Coffee is an extraordinary place with unique coffee. We make espresso from beans roasted in the Liberec roastery Nordbeans. Their owners carefully pick coffee from local farmers in South America, Africa and Asia. We select from their picks. We prefer lightly roasted coffee from Ethiopia and Honduras. They flash by light, rich and fresh taste with fruit tones."
+            cz: "Bitcoin Coffee je jedinečné místo s jedinečnou kávou. Nabízíme vám výběrovou kávu Ethiopii Dumtu z amsterdamské pražírny White Label Coffee. Káva, ze které připravujeme espresso, je zpracována Natural metodou. To znamená, že se celé kávové plody po sesbírání suší a po dosušení jsou z nich vyloupána zrnka.",
+            en: "Bitcoin Coffee is an extraordinary place with unique coffee. We serve selective coffee Ethiopia Dumtu from amsterdam roastery While Label Coffee. Coffee beans that we use for espresso preparation are processed by the so called Natural Method. This means that coffee cherries are dried after collecting and once this process is finished, coffee beans are pealed out."
         },
         "Statement03": {
-            cz: "Za kávu a jiné pochutiny u nás zaplatíte kryptoměnou <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a> nebo <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>.",
-            en: "For coffee and everything else you pay with us by cryptocurrency <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a> or <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>."
+            cz: "Za kávu a jiné pochutiny u nás zaplatíte kryptoměnou <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a>, popřípadě jejím mladším bráškou zvaným <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>.",
+            en: "For coffee and other delicacies, you will pay with us by cryptocurrency <a href='//www.paralelnipolis.cz/jak-na-bitcoin/' target='_blank'>Bitcoin</a> or possibly a younger brother called <a href='//www.paralelnipolis.cz/paralelni-polis-doporucuje-litecoin-jako-prostredek-platby/' target='_blank'>Litecoin</a>."
         },
         "Cooperate": {
             cz: "Spolupracujeme",
